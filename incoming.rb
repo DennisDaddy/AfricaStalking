@@ -1,6 +1,6 @@
 require 'AfricasTalkingGateway'
 require 'sinatra'
-apikey = 'df6e631ba843d5cbd1db7b7f449c0302d9846cba96ce7c1658d26fc952b4b7d0'
+apikey = 'd63e62a3e5d03973ff8469bd8a0609421fa67cd6bc5890a0263bcf9b0bfeb474'
 gateway = AfricasTalkingGateway.new('mercymungai',apikey)
 #gateway.sendMessage(+254791648616,'Hello welcome to Lakehub')
 post'/incomingSms'do 
